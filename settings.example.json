@@ -1,0 +1,8 @@
+{
+    "code": "",
+    "simplepush_key": "",
+    "simplepush_event": "",
+    "notifications": true,
+    "sleep": 15000,
+    "maxRetries": 5
+}

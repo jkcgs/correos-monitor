@@ -1,0 +1,13 @@
+{
+  "name": "correos-monitor",
+  "description": "monitor correos de chile",
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "node-notifier": "^4.6.0",
+    "request": "^2.72.0"
+  },
+  "scripts": {
+    "start": "node ./correos-monitor"
+  }
+}
