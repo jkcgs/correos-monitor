@@ -128,6 +128,10 @@ function sendPush(message) {
 }
 
 function notification(message) {
+	if(!("notifications" in settings) || !settings.notifications) {
+		return;
+	}
+	
 	notifier.notify({
 		title: 'Nuevo estado seguimiento Correos Chile',
 		message: message
